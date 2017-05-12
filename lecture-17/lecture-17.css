@@ -10,3 +10,15 @@ p, div{
 	color: red;
 	text-align: center;
 }
+article {
+	text-align: center;
+	color: red !important;
+}
+
+div > article {
+	color: green;
+}
+
+div.article-element > article {
+	color: blue;
+}

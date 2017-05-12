@@ -1,0 +1,69 @@
+* {
+	font-style: "Times New Roman", helvetica, serif;
+	font-weight: 300;
+	text-transform: italic;
+}
+body {
+	background-color: gray;
+}
+p {
+	border: 1px solid maroon;
+	background-color: white;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	border: 1.5px solid red;
+	background-color: black;
+	color: white;
+}
+
+/* font-family</li>
+		<li>color</li>
+		<li>font-style</li>
+		<li>font-weight</li>
+		<li>font-size</li>
+		<li>text-transform</li>
+		<li>text-align</li> */
+
+.header {
+	background-color: white;
+}
+
+
+
+a {
+	text-decoration: none;
+	border: 2px solid maroon; 
+	margin-right: 210px;
+	background-color: red;
+	color: black;
+	font-size: 140%;
+}
+
+li {
+	font-size: 110%
+}
+
+a:hover, a:active {
+	background-color: maroon;
+}  
+
+ol li:nth-child(odd) {
+	background-color: white; 
+}
+
+ul li:nth-child(odd) {
+	background-color: white;
+}
+
+ol li:nth-child(odd):hover, ol li:nth-child(odd):active {
+	background-color: maroon;
+}
+
+ul li:nth-child(odd):hover, ul li:nth-child(odd):active {
+	background-color: maroon;
+}
+

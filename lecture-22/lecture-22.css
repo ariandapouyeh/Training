@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: teal;
+}
+h1 {
+	background-color: green;
+	margin: 10px;
+	padding: 8px;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	margin-top: 100px;
+}
+#dudes {
+	text-align: center;
+}
+#us {
+	background-color: aqua;
+	height: 58.4px;
+	margin: 20px;
+}
+#contact {
+	width: 100px;
+}
+.cont {
+	background-color: red;
+	position: relative;
+	left: 80px;
+	padding: 10px;
+	top: 20px;
+	text-decoration: none;
+	border: 2px solid green;
+}
+.cont:hover, .cont:active {
+	background-color: maroon;
+}
+#facebook {
+	left: 300px;
+}
+#youtube {
+	left: 600px;
+}
+#twitter {
+	left: 900px;
+}
+#differ {
+	margin-top: 100px;
+	position: relative;
+}
+#differ-ex {
+	text-align: center;
+	margin-bottom: 60px;
+}
+#relative-ex {
+	float: right;
+	margin-right: 50px;
+	height: 300px;
+}
+#absoult-ex {
+	margin-left: 50px;
+	width: 140px;
+	height: 300px;
+}
+.exp {
+	background-color: red;
+}
+#relative-text {
+	background-color: maroon;
+	width: 110px;
+	position: absolute;
+	left: 1360px;
+}
+#absoult-text {
+	background-color: blue;
+	width: 140px;
+	right: 100px;
+}

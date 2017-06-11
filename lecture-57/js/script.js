@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
         
-      $ajaxUtils.sendgetBrowser("data/name.txt", 
+      $ajaxUtils
+      .sendgetBrowser("data/name.txt", 
           function (request) {
             var name = request.responseText;
 

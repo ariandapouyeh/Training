@@ -55,7 +55,7 @@
 
 
 
-(function (window) {
+(function (global) {
   // Set up a namespace for our utility
   var ajaxUtils = {};
   // Returns an HTTP request object
@@ -89,7 +89,7 @@
   }
 }
        
-  window.$ajaxUtils = ajaxUtils;
+  global.$ajaxUtils = ajaxUtils;
 
 )(window);
 
